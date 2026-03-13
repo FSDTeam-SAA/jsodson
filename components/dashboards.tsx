@@ -7,7 +7,7 @@ const Dashboards = () => {
         
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-2xl font-extrabold text-[#1A1F36] mb-4">Powerful Dashboards for Everyone</h2>
+          <h2 className="text-2xl font-extrabold  lg:text-[36px] text-[#1A1F36] mb-4">Powerful Dashboards for Everyone</h2>
           <p className="text-[#6B7280] text-lg">
             Purpose-built interfaces that give students clarity and teachers control.
           </p>

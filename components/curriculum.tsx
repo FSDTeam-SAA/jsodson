@@ -35,7 +35,7 @@ const Curriculum = () => {
         
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-2xl font-extrabold text-[#1A1F36]">Structured Weekly Learning</h2>
+          <h2 className="text-2xl  lg:text-[36px]  font-extrabold text-[#1A1F36]">Structured Weekly Learning</h2>
         </div>
 
         {/* Timeline Container */}

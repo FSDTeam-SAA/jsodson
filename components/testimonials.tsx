@@ -53,7 +53,7 @@ const Testimonials = () => {
         
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-2xl font-extrabold text-[#1A1F36]">
+          <h2 className="text-2xl  lg:text-[36px] font-extrabold text-[#1A1F36]">
             Loved by Students Everywhere
           </h2>
         </div>
