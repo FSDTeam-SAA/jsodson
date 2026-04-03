@@ -54,7 +54,7 @@ const Testimonials = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-2xl  lg:text-[36px] font-extrabold text-[#1A1F36]">
-            Loved by Students Everywhere
+           Our all-in-one method consistently delivers exceptional results.
           </h2>
         </div>
 
