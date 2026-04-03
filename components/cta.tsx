@@ -10,11 +10,11 @@ const CTA = () => {
           
           {/* Left Side: Content */}
           <div className="flex-1 p-10 lg:p-20 z-10">
-            <h2 className="text-xl lg:text-5xl font-extrabold text-[#1A1F36] leading-tight mb-6">
-              Start Learning English with <br /> AI Today
+            <h2 className="text-xl lg:text-4xl font-extrabold text-[#1A1F36] leading-relaxed  mb-6">
+              5 – Start your journey to fluency with <br /> Apex English today!
             </h2>
             <p className="text-[#6B7280] text-lg max-w-lg mb-10 leading-relaxed">
-              Unlock your potential with personalized AI-driven lessons, real time feedback, and interactive modules.
+             Explore a sample week from our course and take our placement test to find your level and ideal starting point. 
             </p>
 
             <div className="flex flex-wrap gap-4">
