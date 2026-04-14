@@ -22,7 +22,7 @@ const Hero = () => {
               Level up your English.{" "}
               <span className="text-gray-500 text-sm">
                 {" "}
-                in 30 weeks with our intensive, personalized program designed
+                In 30 weeks with our intensive, personalized program designed
                 for ambitious professionals.
               </span>
             </h1>
