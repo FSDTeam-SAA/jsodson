@@ -643,7 +643,7 @@ const videoLessons: LessonItem[] = [
     id: "1",
     title: "Lesson 1: Introduction",
     description: "Basics of Consumer Society",
-    videoUrl: "https://www.youtube.com/embed/3MwMII8n1qM?si=4RiC_0l8pm4qoYe8",
+    videoUrl: "",
     materials: "#",
     podcasts: [],
   },
@@ -742,7 +742,7 @@ const VocabQuiz = () => {
   };
 
   return (
-    <Card className="mx-auto max-w-3xl overflow-hidden rounded-3xl border-none bg-white shadow-xl">
+    <Card className="mx-auto max-w-5xl overflow-hidden rounded-3xl border-none bg-white shadow-xl">
       <div className="flex items-center justify-between bg-primary p-6 text-white">
         <h3 className="flex items-center gap-2 text-xl font-bold">
           <BookOpen className="h-5 w-5" />
@@ -864,7 +864,7 @@ const PodcastCard = ({ podcasts }: { podcasts: PodcastItem[] }) => {
       {podcasts.map((podcast, index) => (
         <Card
           key={`${podcast.title}-${index}`}
-          className="rounded-3xl border-none bg-slate-900 p-6 text-white shadow-lg"
+          className="rounded-3xl border-none bg-slate-900 ring-0 p-6 text-white shadow-lg"
         >
           <div className="mb-4 flex items-start justify-between gap-3">
             <div>
@@ -955,7 +955,7 @@ export default function StudyModule() {
                   <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     {/* VIDEO + MATERIALS */}
                     <div className="lg:col-span-2">
-                      <Card className="overflow-hidden rounded-3xl border-none shadow-2xl">
+                      <Card className="overflow-hidden ring-0 rounded-3xl border-none shadow-2xl">
                         <div className="aspect-video w-full bg-slate-900">
                           {hasVideo ? (
                             <iframe
