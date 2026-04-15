@@ -675,9 +675,7 @@ const videoLessons: LessonItem[] = [
     podcasts: [],
   },
 ];
-
-// -------------------- FLASHCARD DATA --------------------
-
+                  
 const flashcards = [
   { word: "Consumer society", definition: "A social and economic order that encourages the acquisition of goods and services in ever-increasing amounts as a primary cultural value." },
   { word: "Wealth creation", definition: "The process of generating assets, income, or value through investment, innovation, and production to increase the overall net worth of individuals or entities." },
@@ -700,6 +698,7 @@ const flashcards = [
   { word: "Persuasive device", definition: "A specific linguistic or rhetorical tool, such as a metaphor or appeal to emotion, used to convince an audience of a particular point." },
   { word: "Critical analysis", definition: "The objective evaluation of an issue or text in order to form a judgment by examining its component parts and underlying assumptions." }
 ];
+
 // -------------------- VOCAB QUIZ --------------------
 
 const normalizeText = (value: string) =>
