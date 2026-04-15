@@ -73,14 +73,14 @@ const Hero = () => {
     </div>
 
     {/* RIGHT */}
-    <div className="relative flex justify-center lg:justify-end">
+    <div className="relative w-full flex justify-center lg:justify-end">
       <Image
         src="/hero.png"
         alt="Mockup"
-        width={600}
-        height={600}
+        width={900}
+        height={900}
         priority
-        className="w-full max-w-md sm:max-w-lg lg:max-w-xl object-contain"
+        className=" 2xl:max-w-[700px]  object-contain"
       />
     </div>
 
