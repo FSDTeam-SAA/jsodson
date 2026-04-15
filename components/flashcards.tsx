@@ -655,7 +655,7 @@ const videoLessons: LessonItem[] = [
     materials: "https://www.youtube.com/watch?v=3MwMII8n1qM",
     podcasts: [
       {
-        title: "Luxie English",
+        title: "Luke's English",
         duration: "60 mins",
         url: "https://open.spotify.com/episode/4BpMNqQiOeObQncI5ltf2I",
       },
