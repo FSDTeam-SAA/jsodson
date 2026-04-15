@@ -9,7 +9,7 @@ const CTA = () => {
         <div className="relative bg-white rounded-[40px] shadow-2xl shadow-blue-100/50 flex flex-col lg:flex-row items-center overflow-hidden min-h-[450px]">
           {/* Left Side: Content */}
           <div className="flex-1 p-10 lg:p-20 z-10">
-            <h2 className="text-xl lg:text-3xl 2xl:text-4xl font-extrabold text-[#1A1F36] leading-relaxed  mb-6">
+            <h2 className="text-xl lg:text-2xl 2xl:text-4xl font-extrabold text-[#1A1F36] leading-relaxed  mb-6">
               Start your journey to fluency with <br /> Apex English today!
             </h2>
             <p className="text-[#6B7280] text-lg max-w-lg mb-10 leading-relaxed">
