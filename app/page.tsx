@@ -6,7 +6,7 @@ import Hero from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
 import Navbar from "@/components/navbar";
 // import PowerfulTools from "@/components/powerful-tools";
-import Testimonials from "@/components/testimonials";
+// import Testimonials from "@/components/testimonials";
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
        <Dashboards/>
       {/* <PowerfulTools /> */}
       <Curriculum/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <CTA/>
       <Footer/>
     </div>

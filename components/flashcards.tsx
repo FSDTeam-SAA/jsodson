@@ -889,8 +889,7 @@ const PodcastCard = ({ podcasts }: { podcasts: PodcastItem[] }) => {
               </a>
             </Button>
           </div>
-
-          {/* <div className="overflow-hidden rounded-2xl border border-slate-700 bg-slate-800">
+    {/* <div className="overflow-hidden rounded-2xl border border-slate-700 bg-slate-800">
             <iframe
               src={getSpotifyEmbedUrl(podcast.url)}
               width="100%"
