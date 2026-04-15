@@ -80,7 +80,7 @@ const Hero = () => {
         width={900}
         height={900}
         priority
-        className=" 2xl:max-w-[700px]  object-contain"
+        className="2xl:max-w-[700px] object-contain"
       />
     </div>
 
